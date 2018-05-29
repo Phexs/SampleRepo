@@ -1,1 +1,6 @@
 Testing Git Setup
+git init
+git add * for all and "file.html" for direct
+git commit -m "drawing a line "
+git remote add origin https://github.com/project.git
+git push -u origin master
