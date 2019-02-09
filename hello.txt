@@ -4,3 +4,6 @@ git add * for all and "file.html" for direct
 git commit -m "drawing a line "
 git remote add origin https://github.com/project.git
 git push -u origin master
+
+
+to get out of a full brown commit " press  esc : wq and enter" 
