@@ -1,9 +1,50 @@
 Testing Git Setup
-git init
-git add * for all and "file.html" for direct
-git commit -m "drawing a line "
-git remote add origin https://github.com/project.git
-git push -u origin master
 
+If you are starting A NEW PROJECT
+
+step 1 
+create the project in Github repository and choose add Readme.txt
+
+Step 2 
+in git bash go to the folder you want your project to be in and use the clone command 
+
+-- Git clone < link of the project from git her > 
+
+-- this should set up the project for you withought a problem 
+
+Step 3 
+After writing your code you can now use Git add
+-- git add * 
+
+Step 4 
+after adding the files then use git commit 
+-- git commit -m " added some files " 
+
+step 5 
+now that the files are added and commited now we can push the changed files to git repository with git push 
+
+-- git push -u 
+
+Now this should set up your project in a Github Repository after any changes 
+
+repeat steps 3, 4 and 5 
+
+                ADDING AN EXISTING PROJECT 
+
+git init  ----> This command makes the folder a Github repository 
+
+git add * or -A for all and "file.html" for direct
+
+git commit -m "drawing a line and commenting what you have done "
+
+git remote add origin https://github.com/project.git -----> adding the git repository link if not cloned or if you don't have one 
+
+git push -u origin master ----> adding all the files to git Repository 
+
+
+IMPORTANT COMMANDS 
+
+Git status ---> Checks the status of your project files if any changes made or not 
+git pull ---> Gets the previous written code from Github repository
 
 to get out of a full brown commit " press  esc : wq and enter" 
